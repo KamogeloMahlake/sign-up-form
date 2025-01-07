@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Form Up</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="left">
+        <div id="logo">
+            <img src="./images/odin-lined.png" /> 
+            <h1>ODIN</h1>
+        </div>
+    </div>
+
+    <div id="right">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+        <p>Sign up <em>now</em> to get started</p>
+        <p>You <em>know</em> you want to.</p>
+        <form action="example.com" method="POST">
+            
+            <fieldset>
+                <h2>Let's do this</h2>
+                
+                <div>
+                    <label for="first-name">FIRST NAME</label>
+                <input id="first-name" name="firstname" type="text" required placeholder="John"/>
+                </div>
+
+                <div>
+                    <label for="last-name">LAST NAME</label>
+                    <input id="last-name" name="lastname" type="text" required placeholder="Doe"/>
+                </div>
+
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input id="email" name="user_email" type="email" required placeholder="123@example.com"/>
+                </div>
+            
+                <div>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input id="phone-number" name="phone_number" type="number" required placeholder="1234567898"/>
+                </div>
+
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input id="password" name="password" type="password" placeholder="asdsdf445" required/>
+                </div>
+
+                <div>
+                    <label for="con-password">CONFIRM PASSWORD</label>
+                    <input id="con-password" name="confirm_password" type="password" placeholder="asdsdf445" required/>
+                </div>
+            </fieldset>
+
+            <button type="submit">Create Account</button>
+        </form>
+
+        <p>Already have an account? <a href="example.com">Log in</a></p>
+    </div>
+</body>
+</html>
